@@ -1,6 +1,6 @@
 window.ARRIVAL_DATA = {
   "pageName": "ARRIVAL",
-  "generatedAt": "2026-03-11T11:47:37.643Z",
+  "generatedAt": "2026-03-11T13:19:00.771Z",
   "safety": {
     "proxyEnabled": false,
     "proxyPrefixSet": false,
@@ -43,25 +43,25 @@ window.ARRIVAL_DATA = {
         {
           "name": "WOOL CROPPED TAILORED BLOUSON_ BLACK",
           "price": "295,000 KRW",
-          "image": "https://tonywack.com/web/product/big/202602/d2d36b303bf051b7b2de45c0d3382109.jpg",
+          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/d2d36b303bf051b7b2de45c0d3382109.jpg",
           "url": "https://tonywack.com/product/wool-cropped-tailored-blouson-black/4115/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ TAUPE MELANGE",
           "price": "145,000 KRW",
-          "image": "https://tonywack.com/web/product/big/202602/ed311f70e251b958070d2ff8eb4b4d31.jpg",
+          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/ed311f70e251b958070d2ff8eb4b4d31.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-taupe-melange/4211/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ PALE YELLOW",
           "price": "145,000 KRW",
-          "image": "https://tonywack.com/web/product/big/202602/0926427d5878420dcb12ae94d8392415.jpg",
+          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/0926427d5878420dcb12ae94d8392415.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-pale-yellow/4178/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ SLATE GREY",
           "price": "145,000 KRW",
-          "image": "https://tonywack.com/web/product/big/202602/c3162ca3629531fda2c248c77a5b4822.jpg",
+          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/c3162ca3629531fda2c248c77a5b4822.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-slate-grey/4210/category/492/display/1/"
         }
       ],
@@ -107,30 +107,41 @@ window.ARRIVAL_DATA = {
         ],
         "linkPattern": "?idx="
       },
-      "title": "Error 403 (Forbidden)",
+      "title": "오토매틱 포 더 피플 | AUTOMATIC FOR THE PEOPLE OFFICIAL",
       "screenshot": "screenshots/automatic.png",
-      "status": "blocked",
-      "products": [],
-      "note": "브라우저 자동화 접근이 차단되었습니다.",
+      "status": "ok",
+      "products": [
+        {
+          "name": "SUMI DYEING PEACOAT_SUMI",
+          "price": "698,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/22b4c0373f23c.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=207"
+        },
+        {
+          "name": "COLD WAR PARKA_CHARCOAL BLACK",
+          "price": "1,315,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/7b0432782a66f.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=185"
+        },
+        {
+          "name": "SHAWL NECK COLLAR KNIT_NAVY",
+          "price": "354,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/2d7cfa5cfa4e8.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=208"
+        },
+        {
+          "name": "SHAWL NECK COLLAR KNIT_BLACK",
+          "price": "354,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/eed5570db20c9.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=206"
+        }
+      ],
+      "note": "",
       "strategies": [
         {
           "strategy": "playwright",
-          "items": 0,
-          "blocked": true
-        },
-        {
-          "strategy": "official_api",
-          "items": 0,
-          "skipped": "ARRIVAL_API_URL_* not set"
-        },
-        {
-          "strategy": "direct_html",
-          "items": 0,
-          "error": "empty response"
-        },
-        {
-          "strategy": "manual_override",
-          "items": 0
+          "items": 4,
+          "blocked": false
         }
       ]
     },
