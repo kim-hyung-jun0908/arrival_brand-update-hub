@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARRIVAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-meta">
+        <p class="hero-sub">LATEST PRODUCT UPDATE HUB</p>
+        <p class="hero-time" id="generatedAt">데이터 로딩 중...</p>
+      </div>
+      <h1>ARRIVAL</h1>
+    </header>
+
+    <main id="brandGrid" class="brand-grid"></main>
+
+    <template id="brandTemplate">
+      <section class="brand-block">
+        <div class="brand-head">
+          <h2 class="brand-name">
+            <img class="brand-logo" alt="" loading="lazy" />
+            <span class="brand-name-text"></span>
+          </h2>
+          <a class="brand-link" target="_blank" rel="noreferrer noopener">공식몰 이동</a>
+        </div>
+        <p class="brand-note"></p>
+        <div class="products"></div>
+      </section>
+    </template>
+
+    <template id="productTemplate">
+      <a class="product" target="_blank" rel="noreferrer noopener">
+        <img class="product-image" alt="" loading="lazy" />
+        <div class="product-meta">
+          <p class="product-name"></p>
+          <p class="product-price"></p>
+        </div>
+      </a>
+    </template>
+
+    <script src="./data/products.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

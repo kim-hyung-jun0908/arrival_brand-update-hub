@@ -1,0 +1,26 @@
+{
+  "name": "codex-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-products.js",
+    "notify": "node scripts/daily-update-notifier.js",
+    "notify:once": "node scripts/daily-update-notifier.js --once",
+    "movie:build": "python3 -u movie-universe/scripts/build_movie_universe.py --start-year 1990 --end-year 1999",
+    "movie:build:sample": "python3 -u movie-universe/scripts/build_movie_universe.py --start-year 1990 --end-year 1999 --max-per-year 5",
+    "boxoffice:build": "python3 -u movie-universe/build_us_boxoffice_1990_2025_dataset.py",
+    "boxoffice:postprocess": "python3 -u movie-universe/scripts/postprocess_boxoffice_csv.py --csv movie-universe/us_boxoffice_1990_2025_top20_full.csv --review movie-universe/us_boxoffice_1990_2025_top20_review_log.csv",
+    "movie:build:from-csv": "python3 -u movie-universe/scripts/build_movie_universe_from_csv.py --input-csv movie-universe/us_boxoffice_1990_2025_top20_full.csv --output-json movie-universe/data/movies.json --output-js movie-universe/data/movies.js",
+    "movie:serve": "python3 -m http.server 8080",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "playwright": "^1.58.2"
+  }
+}
