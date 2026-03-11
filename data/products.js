@@ -1,6 +1,6 @@
 window.ARRIVAL_DATA = {
   "pageName": "ARRIVAL",
-  "generatedAt": "2026-03-10T07:31:32.358Z",
+  "generatedAt": "2026-03-11T11:47:37.643Z",
   "safety": {
     "proxyEnabled": false,
     "proxyPrefixSet": false,
@@ -107,41 +107,30 @@ window.ARRIVAL_DATA = {
         ],
         "linkPattern": "?idx="
       },
-      "title": "오토매틱 포 더 피플 | AUTOMATIC FOR THE PEOPLE OFFICIAL",
+      "title": "Error 403 (Forbidden)",
       "screenshot": "screenshots/automatic.png",
-      "status": "ok",
-      "products": [
-        {
-          "name": "SUMI DYEING PEACOAT_SUMI",
-          "price": "698,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/22b4c0373f23c.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=207"
-        },
-        {
-          "name": "COLD WAR PARKA_CHARCOAL BLACK",
-          "price": "1,315,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/7b0432782a66f.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=185"
-        },
-        {
-          "name": "SHAWL NECK COLLAR KNIT_NAVY",
-          "price": "354,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/2d7cfa5cfa4e8.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=208"
-        },
-        {
-          "name": "SHAWL NECK COLLAR KNIT_BLACK",
-          "price": "354,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/eed5570db20c9.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=206"
-        }
-      ],
-      "note": "",
+      "status": "blocked",
+      "products": [],
+      "note": "브라우저 자동화 접근이 차단되었습니다.",
       "strategies": [
         {
           "strategy": "playwright",
-          "items": 4,
-          "blocked": false
+          "items": 0,
+          "blocked": true
+        },
+        {
+          "strategy": "official_api",
+          "items": 0,
+          "skipped": "ARRIVAL_API_URL_* not set"
+        },
+        {
+          "strategy": "direct_html",
+          "items": 0,
+          "error": "empty response"
+        },
+        {
+          "strategy": "manual_override",
+          "items": 0
         }
       ]
     },
@@ -251,9 +240,21 @@ window.ARRIVAL_DATA = {
       "status": "ok",
       "products": [
         {
+          "name": "ADIDAS HANDBALL SPEZIAL LO 149,000원",
+          "price": "149,000원",
+          "image": "https://image.a-rt.com/art/product/2026/03/12307_1773109761665.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125079"
+        },
+        {
+          "name": "NEW BALANCE U204L3K9 159,000원",
+          "price": "159,000원",
+          "image": "https://image.a-rt.com/art/product/2026/03/30781_1773102923848.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010122398"
+        },
+        {
           "name": "NORTHWAVE ESPRESSO SUEDE 240,000원",
           "price": "240,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/11916_1773105340505.png?shrink=224:224",
+          "image": "https://image.a-rt.com/art/product/2026/03/57106_1773194820804.png?shrink=224:224",
           "url": "https://www.onthespot.co.kr/product?prdtNo=2010125123"
         },
         {
@@ -261,18 +262,6 @@ window.ARRIVAL_DATA = {
           "price": "240,000원",
           "image": "https://image.a-rt.com/art/product/2026/03/95261_1773034243179.png?shrink=224:224",
           "url": "https://www.onthespot.co.kr/product?prdtNo=2010125124"
-        },
-        {
-          "name": "NORTHWAVE ESPRESSO SUEDE 240,000원",
-          "price": "240,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/12388_1773034139903.png?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125122"
-        },
-        {
-          "name": "NORTHWAVE ESPRESSO SUEDE 240,000원",
-          "price": "240,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/69433_1773034024487.png?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125121"
         }
       ],
       "note": "",
@@ -357,6 +346,11 @@ window.ARRIVAL_DATA = {
         },
         {
           "strategy": "direct_html",
+          "items": 0,
+          "error": "empty response"
+        },
+        {
+          "strategy": "manual_override",
           "items": 4
         }
       ]
@@ -434,6 +428,11 @@ window.ARRIVAL_DATA = {
         },
         {
           "strategy": "direct_html",
+          "items": 0,
+          "error": "empty response"
+        },
+        {
+          "strategy": "manual_override",
           "items": 4
         }
       ]
