@@ -1,6 +1,6 @@
 window.ARRIVAL_DATA = {
   "pageName": "ARRIVAL",
-  "generatedAt": "2026-03-12T13:19:07.901Z",
+  "generatedAt": "2026-03-13T13:16:52.990Z",
   "safety": {
     "proxyEnabled": false,
     "proxyPrefixSet": false,
@@ -43,25 +43,25 @@ window.ARRIVAL_DATA = {
         {
           "name": "WOOL CROPPED TAILORED BLOUSON_ BLACK",
           "price": "295,000 KRW",
-          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/d2d36b303bf051b7b2de45c0d3382109.jpg",
+          "image": "https://tonywack.com/web/product/big/202602/d2d36b303bf051b7b2de45c0d3382109.jpg",
           "url": "https://tonywack.com/product/wool-cropped-tailored-blouson-black/4115/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ TAUPE MELANGE",
           "price": "145,000 KRW",
-          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/ed311f70e251b958070d2ff8eb4b4d31.jpg",
+          "image": "https://tonywack.com/web/product/big/202602/ed311f70e251b958070d2ff8eb4b4d31.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-taupe-melange/4211/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ PALE YELLOW",
           "price": "145,000 KRW",
-          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/0926427d5878420dcb12ae94d8392415.jpg",
+          "image": "https://tonywack.com/web/product/big/202602/0926427d5878420dcb12ae94d8392415.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-pale-yellow/4178/category/492/display/1/"
         },
         {
           "name": "SUPER FINE WOOL COMMANDO V-NECK KNIT_ SLATE GREY",
           "price": "145,000 KRW",
-          "image": "https://cafe24img.poxo.com/tonywack02/web/product/big/202602/c3162ca3629531fda2c248c77a5b4822.jpg",
+          "image": "https://tonywack.com/web/product/big/202602/c3162ca3629531fda2c248c77a5b4822.jpg",
           "url": "https://tonywack.com/product/super-fine-wool-commando-v-neck-knit-slate-grey/4210/category/492/display/1/"
         }
       ],
@@ -107,30 +107,41 @@ window.ARRIVAL_DATA = {
         ],
         "linkPattern": "?idx="
       },
-      "title": "Error 403 (Forbidden)",
+      "title": "오토매틱 포 더 피플 | AUTOMATIC FOR THE PEOPLE OFFICIAL",
       "screenshot": "screenshots/automatic.png",
-      "status": "blocked",
-      "products": [],
-      "note": "브라우저 자동화 접근이 차단되었습니다.",
+      "status": "ok",
+      "products": [
+        {
+          "name": "SUMI DYEING PEACOAT_SUMI",
+          "price": "698,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/22b4c0373f23c.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=207"
+        },
+        {
+          "name": "COLD WAR PARKA_CHARCOAL BLACK",
+          "price": "1,315,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/7b0432782a66f.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=185"
+        },
+        {
+          "name": "SHAWL NECK COLLAR KNIT_NAVY",
+          "price": "354,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/2d7cfa5cfa4e8.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=208"
+        },
+        {
+          "name": "SHAWL NECK COLLAR KNIT_BLACK",
+          "price": "354,000원",
+          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/eed5570db20c9.jpg",
+          "url": "https://www.automaticforthepeople.kr/68/?idx=206"
+        }
+      ],
+      "note": "",
       "strategies": [
         {
           "strategy": "playwright",
-          "items": 0,
-          "blocked": true
-        },
-        {
-          "strategy": "official_api",
-          "items": 0,
-          "skipped": "ARRIVAL_API_URL_* not set"
-        },
-        {
-          "strategy": "direct_html",
-          "items": 0,
-          "error": "empty response"
-        },
-        {
-          "strategy": "manual_override",
-          "items": 0
+          "items": 4,
+          "blocked": false
         }
       ]
     },
@@ -170,28 +181,28 @@ window.ARRIVAL_DATA = {
       "status": "ok",
       "products": [
         {
-          "name": "Norda 001a Astral",
-          "price": "₩399,000",
-          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/ss26_norda_001a-astral-1_1280x.jpg?v=1773225221",
-          "url": "https://khakis2020.com/products/norda-001a-astral"
+          "name": "Utrnca Gray",
+          "price": "₩199,000",
+          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/fw25_utrnca-gray-1_1280x.jpg?v=1773229910",
+          "url": "https://khakis2020.com/products/utrnca-gray"
         },
         {
-          "name": "Norda 001a Pewter",
-          "price": "₩399,000",
-          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/ss26_norda_001a-pewter-1_1280x.jpg?v=1773225217",
-          "url": "https://khakis2020.com/products/norda-001a-pewter"
+          "name": "Mtm10lcl Blue",
+          "price": "₩179,000",
+          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/fw25_mtm10lcl-blue-1_1280x.jpg?v=1773229905",
+          "url": "https://khakis2020.com/products/mtm10lcl-blue"
         },
         {
-          "name": "Norda 001a Horizon",
-          "price": "₩399,000",
-          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/ss26_norda_001a-horizon-1_1280x.jpg?v=1773225212",
-          "url": "https://khakis2020.com/products/norda-001a-horizon"
+          "name": "Nb Cayl 3l Jacket Black",
+          "price": "₩372,000",
+          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/fw25_nb_cayl_3l_jacket-black-1_1280x.jpg?v=1773229900",
+          "url": "https://khakis2020.com/products/nb-cayl-3l-jacket-black"
         },
         {
-          "name": "Norda 001a Cinder",
-          "price": "₩399,000",
-          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/ss26_norda_001a-cinder-1_1280x.jpg?v=1773225205",
-          "url": "https://khakis2020.com/products/norda-001a-cinder"
+          "name": "Nb Cayl Flow Alpha Jacket Black",
+          "price": "₩289,000",
+          "image": "https://cdn.shopify.com/s/files/1/0505/4742/5436/files/fw25_nb_cayl_flow_alpha_jacket-black-1_1280x.jpg?v=1773229894",
+          "url": "https://khakis2020.com/products/nb-cayl-flow-alpha-jacket-black"
         }
       ],
       "note": "",
@@ -240,28 +251,28 @@ window.ARRIVAL_DATA = {
       "status": "ok",
       "products": [
         {
-          "name": "ADIDAS OS TP 119,000원",
+          "name": "thisisneverthat PERTEX QA Light Windbreaker 189,000원",
+          "price": "189,000원",
+          "image": "https://image.a-rt.com/art/product/2026/03/25255_1773300205517.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125546"
+        },
+        {
+          "name": "thisisneverthat PERTEX QA Light Windbreaker 189,000원",
+          "price": "189,000원",
+          "image": "https://image.a-rt.com/art/product/2026/03/30237_1773300135504.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125545"
+        },
+        {
+          "name": "thisisneverthat Flow Pant 119,000원",
           "price": "119,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/16151_1773219512133.png?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010121520"
+          "image": "https://image.a-rt.com/art/product/2026/03/65100_1773299862028.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125548"
         },
         {
-          "name": "VANS LX Authentic Prima 125,000원",
-          "price": "125,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/54248_1773188137157.jpg?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010124870"
-        },
-        {
-          "name": "VANS LX Authentic Prima 119,000원",
+          "name": "thisisneverthat Flow Pant 119,000원",
           "price": "119,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/21396_1773187991484.jpg?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010124869"
-        },
-        {
-          "name": "ADIDAS HANDBALL SPEZIAL LO 149,000원",
-          "price": "149,000원",
-          "image": "https://image.a-rt.com/art/product/2026/03/12307_1773109761665.png?shrink=224:224",
-          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125079"
+          "image": "https://image.a-rt.com/art/product/2026/03/26982_1773299797380.png?shrink=224:224",
+          "url": "https://www.onthespot.co.kr/product?prdtNo=2010125547"
         }
       ],
       "note": "",
