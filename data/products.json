@@ -1,6 +1,6 @@
 {
   "pageName": "ARRIVAL",
-  "generatedAt": "2026-03-13T13:16:52.990Z",
+  "generatedAt": "2026-03-14T13:08:55.351Z",
   "safety": {
     "proxyEnabled": false,
     "proxyPrefixSet": false,
@@ -107,41 +107,30 @@
         ],
         "linkPattern": "?idx="
       },
-      "title": "오토매틱 포 더 피플 | AUTOMATIC FOR THE PEOPLE OFFICIAL",
+      "title": "Error 403 (Forbidden)",
       "screenshot": "screenshots/automatic.png",
-      "status": "ok",
-      "products": [
-        {
-          "name": "SUMI DYEING PEACOAT_SUMI",
-          "price": "698,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/22b4c0373f23c.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=207"
-        },
-        {
-          "name": "COLD WAR PARKA_CHARCOAL BLACK",
-          "price": "1,315,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/7b0432782a66f.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=185"
-        },
-        {
-          "name": "SHAWL NECK COLLAR KNIT_NAVY",
-          "price": "354,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/2d7cfa5cfa4e8.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=208"
-        },
-        {
-          "name": "SHAWL NECK COLLAR KNIT_BLACK",
-          "price": "354,000원",
-          "image": "https://cdn-optimized.imweb.me/upload/S202208033f92950cd6cab/eed5570db20c9.jpg",
-          "url": "https://www.automaticforthepeople.kr/68/?idx=206"
-        }
-      ],
-      "note": "",
+      "status": "blocked",
+      "products": [],
+      "note": "브라우저 자동화 접근이 차단되었습니다.",
       "strategies": [
         {
           "strategy": "playwright",
-          "items": 4,
-          "blocked": false
+          "items": 0,
+          "blocked": true
+        },
+        {
+          "strategy": "official_api",
+          "items": 0,
+          "skipped": "ARRIVAL_API_URL_* not set"
+        },
+        {
+          "strategy": "direct_html",
+          "items": 0,
+          "error": "empty response"
+        },
+        {
+          "strategy": "manual_override",
+          "items": 0
         }
       ]
     },
